@@ -3,7 +3,7 @@ import "./ExploreProfileScreen.scss";
 
 export default function ExploreProfileScreen() {
   return (
-    <Screen screenNumber={1} nextLink="testing" previousLink="/">
+    <Screen screenNumber={1} nextLink="/spending-category" previousLink="/">
       Change
     </Screen>
   );

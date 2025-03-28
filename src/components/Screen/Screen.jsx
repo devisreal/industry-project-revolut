@@ -1,7 +1,7 @@
 import "./Screen.scss";
 import screenTopBar from "../../assets/images/screen-top-bar.webp";
 import screenHomeindicator from "../../assets/images/screen-home-indicator.png";
-import resourcesIcon from "../../assets/images/resources-icon.png";
+import resourcesIcon from "../../assets/icons/resources-icon.png";
 import { Link } from "react-router-dom";
 
 const controlCircles = [1, 2, 3, 4, 5];
