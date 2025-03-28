@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function FinalComparisonScreen() {
   const navigate = useNavigate();
   return (
-    <Screen screenNumber={6} previousLink="/">
+    <Screen screenNumber={6} previousLink="/comparison-category">
       <div className="single-screen-header">
         <h1>Ready for What’s Next.</h1>
         <p>Keep building, saving, and growing — one quick read at a time.</p>
