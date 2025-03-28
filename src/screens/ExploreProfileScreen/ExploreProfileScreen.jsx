@@ -4,7 +4,7 @@ import SocialSpender from "../../assets/images/social-spender-image.png";
 
 export default function ExploreProfileScreen() {
   return (
-    <Screen screenNumber={1} nextLink="testing" previousLink="/">
+    <Screen screenNumber={1} nextLink="/spending-category" previousLink="/">
       <div className="explore">
         <div className="image__wrapper">
           <img
