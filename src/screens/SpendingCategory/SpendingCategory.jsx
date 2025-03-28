@@ -54,12 +54,14 @@ const categories = [
 export default function SpendingCategory() {
   const [selectedCard, setSelectedCard] = useState(1);
   return (
-    <Screen screenNumber={2} nextLink="/" previousLink="/explore-screen">
-      <div className="spending-screen__header">
-        <h1 className="spending-screen__header-title">Where March Went</h1>
-        <p className="spending-screen__header-text">
-          Your Top 5 Spending Categories
-        </p>
+    <Screen
+      screenNumber={2}
+      nextLink="/sub-audit"
+      previousLink="/explore-screen"
+    >
+      <div className="single-screen-header">
+        <h1>Where March Went</h1>
+        <p>Your Top 5 Spending Categories</p>
       </div>
 
       <div className="details-card-list">

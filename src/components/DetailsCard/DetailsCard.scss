@@ -10,9 +10,33 @@
   background-color: #161618;
   color: white;
 
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   &--selected {
     background-color: white;
     color: black;
+  }
+
+  &--positive {
+    border: 1px solid #37ddbf;
+
+    &:hover {
+      background-color: #161618;
+      color: white;
+    }
+  }
+
+  &--negative {
+    border: 1px solid #dd3737;
+
+    &:hover {
+      background-color: #161618;
+      color: white;
+    }
   }
 
   &:hover {
@@ -45,6 +69,26 @@
     &-name {
       font-size: 1.05rem;
       font-weight: 500;
+    }
+  }
+
+  &__trend {
+    font-size: 0.9rem;
+    align-self: flex-end;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+
+    svg {
+      rotate: 180deg;
+    }
+
+    &--positive {
+      color: #37ddbf;
+    }
+
+    &--negative {
+      color: #dd3737;
     }
   }
 }
