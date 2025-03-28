@@ -6,7 +6,7 @@ import ExploreProfileScreen from "./screens/ExploreProfileScreen/ExploreProfileS
 import WeekByWeek from "./screens/WeekByWeek/WeekByWeek";
 import SpendingCategory from "./screens/SpendingCategory/SpendingCategory";
 import SubscriptionAuditScreen from "./screens/SubscriptionAuditScreen/SubscriptionAuditScreen";
-
+import FinalComparisonScreen from "./screens/FinalComparisonScreen/FinalComparisonScreen";
 
 function App() {
   return (
@@ -18,6 +18,12 @@ function App() {
         <Route path="/weekly" element={<WeekByWeek />} />
         <Route path="/spending-category" element={<SpendingCategory />} />
         <Route path="/sub-audit" element={<SubscriptionAuditScreen />} />
+        <Route path="/sub-audit" element={<SubscriptionAuditScreen />} />
+
+        <Route
+          path="/final-comparison"
+          element={<FinalComparisonScreen />}
+        />
       </Routes>
     </BrowserRouter>
   );

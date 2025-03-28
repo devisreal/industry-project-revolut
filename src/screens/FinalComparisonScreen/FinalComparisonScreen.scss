@@ -1,0 +1,14 @@
+@use "../../styles/variables" as *;
+
+.final-comparison {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+  }
+
+  &__card {
+    width: 50%;
+    cursor: pointer;
+  }
+}
