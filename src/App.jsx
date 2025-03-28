@@ -1,17 +1,16 @@
-import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
-import screenshot1 from "./assets/images/homescreen.png";
-import screenshot2 from "./assets/images/rev-screenshot-2.png";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
-    <div className="body">
-      <img className="image__top" src={screenshot1} alt="" />
-      <div className="carousel">
-        <p className="test">Test wrapper</p>
-      </div>
-      {/* <img className="image__bottom" src={screenshot2} alt="" /> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        {/* Explorer Profile Screen */}
+        <Route path="/screen1" />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
