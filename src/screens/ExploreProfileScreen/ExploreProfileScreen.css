@@ -1,13 +1,10 @@
-@use "../../styles/variables" as *;
-
 .explore {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  &__image {
-    width: 100%;
-  }
+}
+.explore__image {
+  width: 100%;
 }
 
 .image__wrapper {
@@ -24,11 +21,11 @@
 }
 
 .card {
-  background-color: $backgroundprimary;
+  background-color: #161618;
   border-radius: 20px;
   width: 100%;
   text-align: center;
   font-size: 1rem;
   padding: 0.5rem 1.6rem;
   color: lightgray;
-}
+}/*# sourceMappingURL=ExploreProfileScreen.css.map */
