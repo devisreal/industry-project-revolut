@@ -65,7 +65,7 @@ export default function DetailsCard({
               clipRule="evenodd"
             />
           </svg>
-          34% vs Revolut users like you
+          {category.comparison.value}
         </p>
       )}
     </div>

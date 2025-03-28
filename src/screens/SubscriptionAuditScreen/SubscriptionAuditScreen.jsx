@@ -13,7 +13,7 @@ const subscriptionAudit = [
     amount: -410,
     percentage: 19,
     comparison: {
-      value: "34% vs Revolut users like you",
+      value: "87% than Revolut users like you",
       trend: "negative",
     },
   },
@@ -24,7 +24,7 @@ const subscriptionAudit = [
     amount: -213,
     percentage: 12,
     comparison: {
-      value: "23% vs Revolut users like you",
+      value: "23% than Revolut users like you",
       trend: "positive",
     },
   },
