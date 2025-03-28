@@ -35,7 +35,7 @@ export default function SubscriptionAuditScreen() {
     <Screen
       screenNumber={3}
       previousLink="/spending-category"
-      nextLink="/"
+      nextLink="/weekly"
       extraResources
     >
       <div className="single-screen-header">

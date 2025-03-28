@@ -6,7 +6,12 @@ import arrowsvg from "../../assets/images/red-arrow.svg";
 
 export default function WeekByWeek() {
   return (
-    <Screen screenNumber={4} nextLink="/comparison" previousLink="/sub-audit">
+    <Screen
+      screenNumber={4}
+      nextLink="/comparison-category"
+      previousLink="/sub-audit"
+      extraResources
+    >
       <div className="week">
         <div className="body__wrapper">
           <h2 className="week__title"> More Spent, Mostly Upfront.</h2>
