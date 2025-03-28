@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.scss";
-import screenshot1 from "./assets/images/rev-screenshot-1.png";
+import screenshot1 from "./assets/images/homescreen.png";
 import screenshot2 from "./assets/images/rev-screenshot-2.png";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className="carousel">
         <p className="test">Test wrapper</p>
       </div>
-      <img className="image__bottom" src={screenshot2} alt="" />
+      {/* <img className="image__bottom" src={screenshot2} alt="" /> */}
     </div>
   );
 }
