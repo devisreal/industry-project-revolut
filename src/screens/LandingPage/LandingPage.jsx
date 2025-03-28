@@ -18,7 +18,6 @@ export default function LandingPage() {
           <img className="carousel__image" src={carouselPng} alt="" />
         </Link>
       </div>
-      {/* <img className="image__bottom" src={screenshot2} alt="" /> */}
     </div>
   );
 }
