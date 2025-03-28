@@ -1,5 +1,5 @@
 import "./LandingPage.scss";
-import homepageImage from "../../assets/images/homescreen.png";
+import homepageImage from "../../assets/images/homescreen.webp";
 import carouselPng from "../../assets/images/carousel.png";
 import { Link } from "react-router-dom";
 
