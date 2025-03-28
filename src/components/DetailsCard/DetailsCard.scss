@@ -1,1 +1,50 @@
 @use "../../styles/variables" as *;
+
+.details-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.125rem;
+  padding: 0.875rem;
+  transition: 0.2s;
+  background-color: #161618;
+  color: white;
+
+  &--selected {
+    background-color: white;
+    color: black;
+  }
+
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+  }
+
+  &__icon {
+    width: 48px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 100%;
+
+    &-top,
+    &-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &-bottom {
+      color: #75808a;
+    }
+
+    &-name {
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+  }
+}
