@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
-import LandingPage from "./pages/LandingPage/LandingPage";
+import LandingPage from "./screens/LandingPage/LandingPage";
+import Screen from "./components/Screen/Screen";
+import ExploreProfileScreen from "./screens/ExploreProfileScreen/ExploreProfileScreen";
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         {/* Explorer Profile Screen */}
-        <Route path="/screen1" />
+        <Route path="/explore-screen" element={<ExploreProfileScreen />} />
       </Routes>
     </BrowserRouter>
   );
