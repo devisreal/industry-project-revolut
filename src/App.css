@@ -10,4 +10,33 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Aeonik";
+}
+
+.body {
+  background-color: rgb(1, 1, 40);
+}
+
+.image__top {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 0;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  background-color: rgb(1, 1, 40);
+  margin-top: 0;
+}
+
+.image__bottom {
+  width: 100%;
+  height: 25vh;
+}
+
+.test {
+  color: white;
 }/*# sourceMappingURL=App.css.map */
