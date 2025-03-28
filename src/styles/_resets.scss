@@ -7,3 +7,11 @@
   margin: 0;
   font-family: "Aeonik";
 }
+
+.single-screen-header {
+  text-align: center;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
