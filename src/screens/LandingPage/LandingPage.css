@@ -1,5 +1,3 @@
-@use "../../styles/variables" as *;
-
 .landing-page {
   background-color: rgb(1, 1, 40);
   position: relative;
@@ -9,33 +7,27 @@
   width: 100%;
   height: 100vh;
   margin-bottom: 0;
-  // object-fit: cover;
 }
 
 .carousel {
+  position: absolute;
+  bottom: 16rem;
+  width: 100%;
   align-items: center;
-  height: 14vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 1rem;
   border-radius: 20px;
   background-color: white;
-  margin: 0.1rem 0;
-  text-decoration: none;
-
-  &__image {
-    height: 90%;
-    margin-top: 0.8rem;
-    width: 40%;
-    border-radius: 0 20px 0 0;
-  }
-
-  &__container {
-    position: absolute;
-    bottom: 16rem;
-    padding: 0 1rem;
-  }
+  margin: 0.2rem 0;
+}
+.carousel__image {
+  height: 90%;
+  margin-top: 0.8rem;
+  width: 40%;
+  border-radius: 0 20px 0 0;
 }
 
 .image__bottom {
@@ -53,4 +45,4 @@
 .body {
   font-size: 0.8rem;
   color: gray;
-}
+}/*# sourceMappingURL=LandingPage.css.map */
