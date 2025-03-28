@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className="body__wrapper">
           <h2 className="title">Your Revolut Recap</h2>
           <p className="body">
-            Track your progess, and get smarter with your spending
+            Track your progess, and get smarter with your spending.
           </p>
         </div>
         <img className="carousel__image" src={carouselPng} alt="" />
