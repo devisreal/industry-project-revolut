@@ -109,13 +109,13 @@ export default function Screen({
             <span></span>
           )}
         </div>
-        <div className="screen__home-indicator">
+        <Link to="/" className="screen__home-indicator">
           <img
             className="screen__home-indicator-img"
             src={screenHomeindicator}
             alt="Home indicator"
           />
-        </div>
+        </Link>
       </div>
     </div>
   );

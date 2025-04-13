@@ -7,14 +7,19 @@
 
 .image__top {
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   margin-bottom: 0;
   // object-fit: cover;
+
+  @media (min-width: 25rem) {
+    width: 100%;
+    height: 852px;
+  }
 }
 
 .carousel {
   align-items: center;
-  height: 14vh;
+  height: 12.5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,11 +41,6 @@
     bottom: 16rem;
     padding: 0 1rem;
   }
-}
-
-.image__bottom {
-  width: 100%;
-  height: 25vh;
 }
 
 .title {
